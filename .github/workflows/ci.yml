@@ -18,7 +18,7 @@ jobs:
 
       - name: Gradle build
         working-directory: .
-        run: gradlew build -x test
+        run: gradle build -x test
 
       - name: Gradle test
         working-directory: .
